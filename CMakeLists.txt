@@ -21,5 +21,5 @@ target_link_libraries(tcpserver uv)
 target_link_libraries(worker uv)
 
 add_executable(memblock_test  memblock_test.c )
-add_executable(memhash_test   memhash_test.c )
+add_executable(memhash_test   memhash_test.c memhash.c)
 
