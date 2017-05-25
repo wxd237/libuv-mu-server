@@ -2,7 +2,7 @@
 #include <assert.h>
 #include "memhash.h"
 
-int main(){
+int main(int args,char **argv){
 		struct memhash *s=memhash_new(127000);
 		mem_hook(s);
 		assert(s!=NULL);
